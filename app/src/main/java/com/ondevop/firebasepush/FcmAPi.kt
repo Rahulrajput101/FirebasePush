@@ -10,7 +10,7 @@ interface FcmAPi {
         @Body body: SendMessageDto
     )
 
-    @POST("/broadcasr")
+    @POST("/broadcast")
     suspend fun broadcast(
         @Body body: SendMessageDto
     )

@@ -3,7 +3,7 @@ package com.ondevop.firebasepush
 import android.app.Notification
 
 data class SendMessageDto(
-     val to: String,
+     val to: String?,
      val notification: NotificationBody
  )
 
